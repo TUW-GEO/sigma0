@@ -3,28 +3,19 @@
 """
     Setup file for sigma0.
 
-    This file was generated with PyScaffold 3.0.3.
-    PyScaffold helps you to put up the scaffold of your new Python project.
-    Learn more under: http://pyscaffold.org/
+    This file was generated with PyScaffold 2.5.11, a tool that easily
+    puts up a scaffold for your new Python project. Learn more under:
+    http://pyscaffold.readthedocs.org/
 """
 
 import sys
 from setuptools import setup
 
-# Add here console scripts and other entry points in ini-style format
-entry_points = """
-[console_scripts]
-# script_name = sigma0.module:function
-# For example:
-# fibonacci = sigma0.skeleton:run
-"""
-
 
 def setup_package():
     needs_sphinx = {'build_sphinx', 'upload_docs'}.intersection(sys.argv)
     sphinx = ['sphinx'] if needs_sphinx else []
-    setup(setup_requires=['pyscaffold>=3.0a0,<3.1a0'] + sphinx,
-          entry_points=entry_points,
+    setup(setup_requires=['six', 'pyscaffold>=2.5a0,<2.6a0'] + sphinx,
           use_pyscaffold=True)
 
 

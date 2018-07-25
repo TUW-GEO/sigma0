@@ -46,7 +46,7 @@ Contents
 
    License <license>
    Authors <authors>
-   Changelog <changelog>
+   Changelog <changes>
    Module Reference <api/modules>
 
 
