@@ -47,8 +47,9 @@ If you want to contribute please follow these steps:
   We use py.test so a simple function called test_my_feature is enough
 - submit a pull request to our master branch
 
+
 Note
 ====
 
-This project has been set up using PyScaffold 2.5.11. For details and usage
-information on PyScaffold see http://pyscaffold.readthedocs.org/.
+This project has been set up using PyScaffold 3.2.3. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
